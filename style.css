@@ -1,0 +1,380 @@
+@import url(//db.onlinewebfonts.com/c/3a37494959f5c781aed56ad6a22bcfe3?family=Centaur);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+:root {
+    --light-blue-color: #eaf1f6;
+    --blue-color: #8eafcb;
+    --orange-color: #f69226;
+    --dark-gray-color: #6a6f72;
+}
+
+body {
+    font-family: 'Open Sans', serif;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+a:hover {
+    border-bottom: 2px #fff solid;
+}
+
+/* Navbar */
+
+.header {
+    height: 90px;
+}
+
+.ad-tip p span.span-color, .ad-section-1-list li, .ad-section-1-list li a, .ad-section-3-list, .ad-section-3-list li a, .ad-section-3-span-color {
+    color: var(--orange-color);
+}
+
+h1 {
+    color: var(--blue-color);
+    margin-top: 40px;
+    margin-bottom: 16px;
+}
+
+.header ul {
+    display: flex;
+}
+
+.header a {
+    padding: 10px;
+    margin: 0 5px;
+}
+
+.header .flex, .navbar .flex, .footer-banner .flex, div.footer-logos {
+    justify-content: space-between;
+}
+
+.navbar {
+    background-color: var(--light-blue-color);
+    width: 100%;
+    height: 70px;
+}
+
+.navbar ul li a {
+    color: var(--dark-gray-color-color);
+}
+
+.navbar ul li {
+    display: inline-block;
+    margin-right: 30px;
+    font-size: 22px;
+}
+
+.navbar-btn {
+    background-color: var(--orange-color);
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    padding: 10px 20px;
+}
+
+.navbar-btn i {
+    color: white;
+    margin-right: 8px;
+    font-size: 26px;
+}
+
+.navbar-btn a {
+    color: white;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-gap: 10px;
+}
+
+.ad-section-1 ul, .ad-section-3-list {
+    margin-top: 30px;
+}
+
+.ad-section-1-span, .ad-section-2-span {
+    color: var(--blue-color);
+}
+
+div.navbar ul li::before, .ad-section-1 li::before, .ad-section-3-list li::before, .footer-list li::before {
+    content: '> ';
+    font-weight: bolder;
+    list-style: none;
+}
+
+.ad-section-1 p {
+    font-size: 22px;
+}
+
+.ad-section-1-list {
+    font-size: 22px;
+}
+
+.ad-section-1 {
+    width: 100%;
+    border-bottom: 1px solid #96989b;
+}
+
+.ad-section-2 .container div {
+    font-size: 22px;
+    margin-bottom: 38px;
+}
+
+.ad-img-2 {
+    float: left;
+}
+
+.ad-item-list {
+    width: 50%;
+    float: right;
+}
+
+.ad-section-2 li, .list-description li {
+    list-style: "\2713\0020";
+    margin-bottom: 10px;
+}
+
+.ad-section-2 li::before {
+    color: var(--blue-color);
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+div.banner-1 {
+    height: 100px;
+    background-color: var(--light-blue-color);
+    color: var(--blue-color);
+    font-size: 26px;
+}
+
+/*Price Tag*/
+
+.img-container {
+    position: relative;
+}
+
+.special-price {
+    position: absolute;
+    text-align: center;
+}
+
+.special-price .offer {
+    border-radius: 50%;
+    background-color: var(--blue-color);
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    height: 150px;
+    width: 150px;
+    display: inline-block;
+    text-align: center;
+}
+
+.price {
+    position: relative;
+    top: 50%;
+    transform: translate(-10%, -50%);
+}
+
+.offer .dollars {
+    font-size: 64px;
+}
+
+.offer .cents {
+    position: relative;
+    top: -20px;
+    font-size: 32px;
+}
+
+.special-price-number {
+    position: relative;
+    bottom: 60px;
+    left: 74px;
+    font-size: 26;
+}
+
+div.banner-advertisements {
+    justify-content: space-around;
+}
+
+.ad-img-3, .ad-img-4, .footer-btns {
+    float: right;
+}
+
+.special-price-img-3 {
+    right: 0;
+}
+
+/*Price Tag END*/
+
+.ad-tip {
+    display: grid;
+    grid-template-columns: 40px 90px;
+    grid-gap: 4px;
+    justify-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 72px;
+    font-size: 12px;
+    font-weight: bold;
+    color: var(--blue-color);
+}
+
+.ad-tip p {
+    margin-top: 4px;
+}
+
+.grid-container-banner {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-auto-flow: column;
+}
+
+p.italic-paragraph {
+    color: var(--dark-gray-color);
+    font-style: italic;
+    margin-top: 0;
+    font-size: 22px;
+}
+
+.ad-section-3-text h1 {
+    margin-bottom: 0px;
+}
+
+.ad-section-3-text p+p, .ad-section-4 p+p {
+    font-size: 22px;
+    padding-top: 20px;
+}
+
+.ad-section-3-list {
+    font-size: 22px
+}
+
+.banner-2 {
+    border-bottom: 2px var(--light-blue-color) solid;
+    border-top: 2px var(--light-blue-color) solid;
+    margin-bottom: 60px;
+}
+
+.banner-2 .ad-tip {
+    display: grid;
+    grid-template-columns: 60px 140px;
+    grid-gap: 2px;
+    justify-items: center;
+    justify-content: center;
+    margin-left: 72px;
+    font-size: 16px;
+}
+
+.ad-img-4 {
+    margin-top: 60px;
+}
+
+.ad-section-4 {
+    width: 70%;
+}
+
+#item-section-4 {
+    align-items: normal;
+}
+
+#heading-section-4 {
+    margin-bottom: 0px;
+}
+
+.list-description li {
+    list-style-position: inside;
+    font-size: 22px;
+}
+
+.description-button span {
+    font-weight: bold;
+    color: white;
+}
+
+.description-button {
+    color: white;
+    font-size: 22px;
+    margin-top: 30px;
+    border-radius: 8px;
+    padding: 8px 36px;
+    background-color: var(--orange-color);
+    border: none;
+}
+
+.description-button a {
+    color: white;
+}
+
+/*FOOTER */
+
+.footer-banner h2 {
+    margin-bottom: 16px;
+}
+
+.footer-banner {
+    background-color: var(--blue-color);
+    height: 180px;
+    margin-top: 170px;
+    color: white;
+}
+
+.footer-banner a {
+    color: white;
+}
+
+.footer-info {
+    float: left;
+}
+
+.img-cont {
+    position: relative;
+}
+
+div img.ad-img-5 {
+    position: absolute;
+    left: -175px;
+    bottom: -90px;
+}
+
+.web-url {
+    font-family: 'Centaur';
+    color: var(--blue-color);
+    font-size: 50px;
+    font-weight: lighter;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+@media only screen and (max-width: 1100px) {
+    .ad-tip p,.header .grid-container-banner {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .ad-img-5 {
+        display: none;
+    }
+    .footer-logos
+    {
+        flex-direction: column;
+    }
+
+    .special-price .offer {
+    display: none;
+    }
+}
